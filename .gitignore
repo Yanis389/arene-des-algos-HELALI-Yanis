@@ -1,7 +1,24 @@
-.ipynb_checkpoints/
-__pycache__/
-.env
+@'
+# Environnements
 .venv/
 venv/
-*.pyc
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Fichiers système
 .DS_Store
+Thumbs.db
+
+# Données temporaires
+*.log
+'@ | Set-Content -Encoding UTF8 .\.gitignore
